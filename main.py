@@ -5,7 +5,9 @@ import tkinter as tk
 from tkinter import messagebox 
 import database 
 import pyautogui
+# screen varaible
 screen_width, screen_height = pyautogui.size()
+x = 10 
 app = customtkinter.CTk()
 app.title('Service Team Inventory Management System')
 app.geometry(f'{screen_width}x{screen_height}+0+0')
